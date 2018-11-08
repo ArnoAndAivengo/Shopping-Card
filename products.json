@@ -1,0 +1,44 @@
+[{
+    "id": 1,
+    "imgUrl": "img/kangaroo.jpg",
+    "description": "Быстрый, резкий, хорошо, высоко прыгает",
+    "title": "Купить кенгуру",
+    "price": 40
+}, {
+    "id": 2,
+    "imgUrl": "img/elephant.jpg",
+    "description": "Все говорят, а ты купи слона!",
+    "title": "Купить слона"
+}, {
+    "id": 3,
+    "imgUrl": "img/cow.jpg",
+    "description": "И у тебя всегда будет молоко!",
+    "title": "Купить корову"
+}, {
+    "id": 4,
+    "imgUrl": "img/parrot.jpg",
+    "title": "Купить попугаев"
+}, {
+    "id": 5,
+    "imgUrl": "img/condominium.jpg",
+    "description": "Хорошо иметь домик в деревне, а квартиру в городе - еще лучше!",
+    "title": "Купить квартиру"
+}, {
+    "id": 6,
+    "imgUrl": "img/capacitor.jpg",
+    "description": "Они всем нужны!",
+    "title": "Купить конденсаторы"
+}, {
+    "id": 7,
+    "imgUrl": "img/kamaz.jpg",
+    "description": "Будь мужиком!",
+    "title": "Купить машину"
+}, {
+    "id": 8,
+    "imgUrl": "img/bun.jpg",
+    "title": "Купить булочку"
+}, {
+    "id": 9,
+    "imgUrl": "img/tiger.jpg",
+    "title": "Купить тигра"
+}]
