@@ -50,7 +50,7 @@ function addProduct(name,price){
             remove: '<button class="remove" onclick="removeProduct(this, event)">&#10005;</button>'
         });
     }
-    add();
+
     totalCost += price;
     console.log(totalCost);
 
@@ -58,13 +58,11 @@ function addProduct(name,price){
         $('#cartcontent').datagrid('loadData', data);
         (alert('Максимальная Сумма: Баланс превышен'));
         $('div.cart .maxSum').html('Максимальная Сумма: Баланс превышен');
-        $('div.cart .total').html('Total: $' + 300);
         $( ".item" ).draggable({
             disabled: true
         });
-        ;
-
     }else{
+        add();
         $('#cartcontent').datagrid('loadData', data);
         $('div.cart .total').html('Total: $' + totalCost);
     }
